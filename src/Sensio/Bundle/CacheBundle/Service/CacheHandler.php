@@ -22,7 +22,7 @@ class CacheHandler
     public function onKernelRequest(GetResponseEvent $event)
     {
         $cache = new FilesystemCache($this->cacheDirectory);
-        if ($event->getRequest()->get('_route') == 'un_set') {
+        if ($event->getRequest()->get('_route') == 'un-set-cache') {
             $cache->save('is_managed_cache', false);
         }
 
