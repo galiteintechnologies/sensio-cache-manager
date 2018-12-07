@@ -1,0 +1,22 @@
+{
+    "name": "root/sensiocachemanager",
+    "description": "This function is used to imporve the cache of doctrine",
+    "require": {
+        "doctrine/doctrine-bundle": "~1.4",
+        "doctrine/orm": "^2.4.8"
+    },
+    "authors": [
+        {
+            "name": "Galitein Technology",
+            "email": "galitein@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "SensioCache": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": { "url": "https://packagist.org", "type": "composer" }
+    }
+}
