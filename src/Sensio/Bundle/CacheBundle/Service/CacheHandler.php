@@ -8,7 +8,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class CacheHandler
 {
-    /* @var string /
+    /* @var string */
     private $cacheDirectory;
 
     public function __construct($cacheDirectory)
