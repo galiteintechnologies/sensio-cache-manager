@@ -1,4 +1,6 @@
 services:
-#    sensio_cache.example:
-#        class: Sensio\Bundle\CacheBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+  app.handler.cache_manager_service:
+    class: Sensio\Bundle\CacheBundle\Service\CacheHandler
+    arguments:  ['%kernel.cache_dir%']
+    tags:
+      - { name: kernel.event_listener, event: kernel.request }
