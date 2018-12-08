@@ -1,0 +1,3 @@
+sensio_cache:
+    resource: "@SensioCacheBundle/Controller/"
+    type:     annotation
