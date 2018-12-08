@@ -1,5 +1,5 @@
 {
-    "name": "sensio/cache-manager",
+    "name": "sensiolab/cache-manager",
     "license": "MIT",
     "type": "library",
     "description": "Say Hello bundle",
